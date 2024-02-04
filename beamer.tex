@@ -1,0 +1,51 @@
+\documentclass[aspectratio=169, 12pt]{beamer}
+
+% Configuración de beamer
+\usetheme{Madrid}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}{}
+\setbeamertemplate{headline}{}
+\definecolor{\rojo}{RGB}{103,0,0}
+\setbeamercolor{structure}{fg=\rojo}
+% -----------------------
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{pdflscape}
+\usepackage{hyperref}
+\usepackage{lipsum}
+\usepackage{parskip}
+
+% Logos de la escuela
+\def\logoIti{~/Documents/TEC/Logos/itiguala.png}
+\def\logoTec{~/Documents/TEC/Logos/tecnm.jpg}
+\def\logoSep{~/Documents/TEC/Logos/sep.png}
+
+% Portada
+\title{Titulo del tema}
+\subtitle{Subtitulo del tema}
+\author{Marco Aurelio Juárez Baltazar}
+\institute{Tecnológico Nacional de México\\
+					 Instituto Tecnológico de Iguala\\
+					 Materia\\
+					 Maestro}
+\date{\today}
+% -----------------------
+
+% Inicio del documento
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Índice}
+\tableofcontents
+\end{frame}
+
+\end{document}
